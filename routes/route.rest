@@ -1,0 +1,17 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/62102e871ff090ee78ed2c23
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Rushabh Patel",
+    "subscribeToChanel":"Moz Moore"
+}
+
+###
+DELETE http://localhost:3000/subscribers/62102e871ff090ee78ed2c23

@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/62102e871ff090ee78ed2c23
+GET http://localhost:3000/subscribers/623be9c31c2add339782d8a6
 
 ###
 POST http://localhost:3000/subscribers
@@ -10,7 +10,8 @@ Content-Type: application/json
 
 {
     "name":"Rushabh Patel",
-    "subscribeToChanel":"Moz Moore"
+    "subscribeToChanel":"Moz Moore",
+    "friends":["Jeethalal","Tapu","Daya"]
 }
 
 ###
